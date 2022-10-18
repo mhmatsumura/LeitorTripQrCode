@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    >
+
+    <com.journeyapps.barcodescanner.CompoundBarcodeView
+        android:id="@+id/escaner_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="?android:attr/listDivider" >
+
+    </View>
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="@dimen/text_size_edittext"
+        android:text="NÚMERO     -     TCMR     -     CÓDIGO ID"
+        android:gravity="center"
+        android:layout_weight="5"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="?android:attr/listDivider" >
+
+    </View>
+
+    <ScrollView
+        android:id="@+id/SCROLLER_ID"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scrollbars="vertical"
+        android:fillViewport="true"
+        android:layout_weight="43"
+
+        >
+
+        <TextView
+            android:id="@+id/bloco_notas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:padding="@dimen/padding"
+            android:textSize="@dimen/text_size_label"
+            android:textIsSelectable="true"/>
+
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="?android:attr/listDivider" >
+
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_marginVertical="@dimen/padding"
+        android:layout_weight="9"
+        android:weightSum="100">
+
+        <Button
+            android:id="@+id/botaoApagar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Apagar"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:textSize="16sp"
+            android:layout_weight="33"/>
+
+        <Button
+            android:id="@+id/botaoGerarQrcode"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Gerar QRcode"
+            android:textSize="16sp"
+            android:layout_weight="33"/>
+
+        <Button
+            android:id="@+id/botaoEnviar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:text="Enviar"
+            android:textSize="16sp"
+            android:layout_weight="33"/>
+
+    </LinearLayout>
+
+</LinearLayout>

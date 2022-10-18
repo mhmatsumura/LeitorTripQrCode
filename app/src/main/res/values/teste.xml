@@ -1,0 +1,1936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ACRONIMOS_EF>
+    <tdEfAcronimos1>
+        <Val ord="1">OFF</Val>
+        <Val ord="2">ON</Val>
+        <Val ord="3">INTERM</Val>
+        <Val ord="4">DESCON</Val>
+        <Val ord="5">LOCAL</Val>
+        <Val ord="6">TELEMAN</Val>
+        <Val ord="7">ABIERTO</Val>
+        <Val ord="8">CERRADO</Val>
+        <Val ord="9">NORMAL</Val>
+        <Val ord="10">ALARMA</Val>
+        <Val ord="11">REPOSO</Val>
+        <Val ord="12">ENCURSO</Val>
+        <Val ord="13">EXITO</Val>
+        <Val ord="14">DDEF</Val>
+        <Val ord="15">DESCON</Val>
+        <Val ord="16">ADELANTE</Val>
+        <Val ord="17">ATRAS</Val>
+        <Val ord="18">AMBOS</Val>
+    </tdEfAcronimos1>
+    <tdEfAcronimos2>
+        <Val ord="1">OFF</Val>
+        <Val ord="2">ON</Val>
+        <Val ord="3">INTERM</Val>
+        <Val ord="4">BAD</Val>
+        <Val ord="5">LOCAL</Val>
+        <Val ord="6">TELECON</Val>
+        <Val ord="7">OPEN</Val>
+        <Val ord="8">CLOSED</Val>
+        <Val ord="9">NORMAL</Val>
+        <Val ord="10">ALARM</Val>
+        <Val ord="11">READY</Val>
+        <Val ord="12">INPROGRESS</Val>
+        <Val ord="13">SUCESSFULL</Val>
+        <Val ord="14">UNSUCESSFULL</Val>
+        <Val ord="15">UNKNOWN</Val>
+        <Val ord="16">FORWARD</Val>
+        <Val ord="17">BACKWARD</Val>
+        <Val ord="18">BOTH</Val>
+    </tdEfAcronimos2>
+</ACRONIMOS_EF><AccessPoint name="Ingeteam_TD" desc="">
+<Server>
+    <Authentication />
+    <LDevice inst="GEN">
+        <LN desc="LPHD Info" inst="1" lnClass="LPHD" lnType="tdDaEd2GEN_LPHD_PT_v6">
+            <DOI name="AccS1Alm" desc="Fallo comms tarjeta 1">
+                <DAI name="stVal" sAddr="S,0,24611,0;TX1:Fallo comms tarjeta 1,TX2:Position 1 Access Error,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="AccS2Alm" desc="Fallo comms tarjeta 2">
+                <DAI name="stVal" sAddr="S,0,24612,0;TX1:Fallo comms tarjeta 2,TX2:Position 2 Access Error,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="AccS3Alm" desc="Fallo comms tarjeta 3">
+                <DAI name="stVal" sAddr="S,0,24613,0;TX1:Fallo comms tarjeta 3,TX2:Position 3 Access Error,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="AccS4Alm" desc="Fallo comms tarjeta 4">
+                <DAI name="stVal" sAddr="S,0,24614,0;TX1:Fallo comms tarjeta 4,TX2:Position 4 Access Error,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="AiCnfOk" desc="Analog Input Config OK">
+                <DAI name="stVal" sAddr="S,0,24752,0;TX1:Entradas analog. config OK,TX2:Analog Input Config OK,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="BatAlm" desc="Internal Battery Failure">
+                <DAI name="stVal" sAddr="S,0,24637,0;TX1:Fallo Bateria interna,TX2:Internal Battery Failure,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="CpuDOAlm" desc="CPU Activ. DO Error">
+                <DAI name="stVal" sAddr="S,0,24615,0;TX1:Alarma reles CPU,TX2:CPU Activ. DO Error,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="E2Pr0Alm" desc="E2PROM Position 0 Error">
+                <DAI name="stVal" sAddr="S,0,24620,0;TX1:Error E2PROM posicion 0,TX2:E2PROM  Position 0 Error,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="E2Pr1Alm" desc="E2PROM Position 1 Error">
+                <DAI name="stVal" sAddr="S,0,24621,0;TX1:Error E2PROM posicion 1,TX2:E2PROM  Position 1 Error,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="E2Pr2Alm" desc="E2PROM Position 2 Error">
+                <DAI name="stVal" sAddr="S,0,24622,0;TX1:Error E2PROM posicion 2,TX2:E2PROM  Position 2 Error,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="E2Pr3Alm" desc="E2PROM Position 3 Error">
+                <DAI name="stVal" sAddr="S,0,24623,0;TX1:Error E2PROM posicion 3,TX2:E2PROM  Position 3 Error,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="E2Pr4Alm" desc="E2PROM Position 4 Error">
+                <DAI name="stVal" sAddr="S,0,24624,0;TX1:Error E2PROM posicion 4,TX2:E2PROM  Position 4 Error,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="Eth0Link" desc="Link Ethernet 0">
+                <DAI name="stVal" sAddr="S,0,24753,0;TX1:Link Ethernet 0,TX2:Link Ethernet 0,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="Eth1ALink" desc="Link Ethernet 1">
+                <DAI name="stVal" sAddr="S,0,24754,0;TX1:Link Ethernet 1,TX2:Link Ethernet 1,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="Eth1Ast" desc="Channel A active Ethernet 1">
+                <DAI name="stVal" sAddr="S,0,24702,0;TX1:Ethernet 1 Canal A activo,TX2:Channel A active Ethernet 1,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="Eth1BLink" desc="Link Ethernet 1 Redundant">
+                <DAI name="stVal" sAddr="S,0,24755,0;TX1:Link Ethernet 1 Redundante,TX2:Link Ethernet 1 Redundant,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="Eth1Bst" desc="Channel B active Ethernet 1">
+                <DAI name="stVal" sAddr="S,0,24703,0;TX1:Ethernet 1 Canal B activo,TX2:Channel B active Ethernet 1,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="Eth2ALink" desc="Link Ethernet 2">
+                <DAI name="stVal" sAddr="S,0,24756,0;TX1:Link Ethernet 2,TX2:Link Ethernet 2,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="Eth2BLink" desc="Link Ethernet 2 Redundant">
+                <DAI name="stVal" sAddr="S,0,24757,0;TX1:Link Ethernet 2 Redundante,TX2:Link Ethernet 2 Redundant,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="EthRAlm" desc="Ethernet redundancy Alarm">
+                <DAI name="stVal" sAddr="S,0,24734,0;TX1:Alarma redundancia Ethernet,TX2:Ethernet redundancy Alarm,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="FrontError" desc="Front comms Failure">
+                <DAI name="stVal" sAddr="S,0,24625,0;TX1:Error comunicacion frontal,TX2:Front comms Failure,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="GGIO1Dif" desc="Card 01 Diff. Config">
+                <DAI name="stVal" sAddr="S,0,24674,0;TX1:Tarjeta 1 Dif. Config,TX2:Card 1 Diff. Config,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="GGIO1HwErr" desc="Card 01 Internal Error">
+                <DAI name="stVal" sAddr="S,0,24676,0;TX1:Tarjeta 1 Error interno,TX2:Card 1 Internal Error,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="GGIO1NConf" desc="Card 01 No_ConfigAndDetect">
+                <DAI name="stVal" sAddr="S,0,24675,0;TX1:Tarjeta 1 No_ConfigYDetect,TX2:Card 1 No_ConfigAndDetect,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="GGIO1Nodet" desc="Card 01 ConfigAndNo_Detect">
+                <DAI name="stVal" sAddr="S,0,24673,0;TX1:Tarjeta 1 ConfigYNo_Detec,TX2:Card 1 ConfigAndNo_Detect,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="GGIO1Ok" desc="Card 01 ok">
+                <DAI name="stVal" sAddr="S,0,24672,0;TX1:Tarjeta 1 ok,TX2:Card 1 ok,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="GGIO2Dif" desc="Card 02 Diff. Config">
+                <DAI name="stVal" sAddr="S,0,24679,0;TX1:Tarjeta 2 Dif. Config,TX2:Card 2 Diff. Config,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="GGIO2HwErr" desc="Card 02 Internal Error">
+                <DAI name="stVal" sAddr="S,0,24681,0;TX1:Tarjeta 2 Error interno,TX2:Card 2 Internal Error,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="GGIO2NConf" desc="Card 02 No_ConfigAndDetect">
+                <DAI name="stVal" sAddr="S,0,24680,0;TX1:Tarjeta 2 No_ConfigYDetect,TX2:Card 2 No_ConfigAndDetect,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="GGIO2Nodet" desc="Card 02 ConfigAndNo_Detect">
+                <DAI name="stVal" sAddr="S,0,24678,0;TX1:Tarjeta 2 ConfigYNo_Detec,TX2:Card 2 ConfigAndNo_Detect,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="GGIO2Ok" desc="Card 02 ok">
+                <DAI name="stVal" sAddr="S,0,24677,0;TX1:Tarjeta 2 ok,TX2:Card 2 ok,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="GGIO3Dif" desc="Card 03 Diff. Config">
+                <DAI name="stVal" sAddr="S,0,24684,0;TX1:Tarjeta 3 Dif. Config,TX2:Card 3 Diff. Config,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="GGIO3HwErr" desc="Card 03 Internal Error">
+                <DAI name="stVal" sAddr="S,0,24686,0;TX1:Tarjeta 3 Error interno,TX2:Card 3 Internal Error,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="GGIO3NConf" desc="Card 03 No_ConfigAndDetect">
+                <DAI name="stVal" sAddr="S,0,24685,0;TX1:Tarjeta 3 No_ConfigYDetect,TX2:Card 3 No_ConfigAndDetect,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="GGIO3Nodet" desc="Card 03 ConfigAndNo_Detect">
+                <DAI name="stVal" sAddr="S,0,24683,0;TX1:Tarjeta 3 ConfigYNo_Detec,TX2:Card 3 ConfigAndNo_Detect,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="GGIO3Ok" desc="Card 03 ok">
+                <DAI name="stVal" sAddr="S,0,24682,0;TX1:Tarjeta 3 ok,TX2:Card 3 ok,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="GGIO4Dif" desc="Card 04 Diff. Config">
+                <DAI name="stVal" sAddr="S,0,24689,0;TX1:Tarjeta 4 Dif. Config,TX2:Card 4 Diff. Config,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="GGIO4HwErr" desc="Card 04 Internal Error">
+                <DAI name="stVal" sAddr="S,0,24691,0;TX1:Tarjeta 4 Error interno,TX2:Card 4 Internal Error,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="GGIO4NConf" desc="Card 04 No_ConfigAndDetect">
+                <DAI name="stVal" sAddr="S,0,24690,0;TX1:Tarjeta 4 No_ConfigYDetect,TX2:Card 4 No_ConfigAndDetect,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="GGIO4Nodet" desc="Card 04 ConfigAndNo_Detect">
+                <DAI name="stVal" sAddr="S,0,24688,0;TX1:Tarjeta 4 ConfigYNo_Detec,TX2:Card 4 ConfigAndNo_Detect,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="GGIO4Ok" desc="Card 04 ok">
+                <DAI name="stVal" sAddr="S,0,24687,0;TX1:Tarjeta 4 ok,TX2:Card 4 ok,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="GGIO5Dif" desc="Card 05 Diff. Config">
+                <DAI name="stVal" sAddr="S,0,24694,0;TX1:Tarjeta 5 Dif. Config,TX2:Card 5 Diff. Config,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="GGIO5HwErr" desc="Card 05 Internal Error">
+                <DAI name="stVal" sAddr="S,0,24696,0;TX1:Tarjeta 5 Error interno,TX2:Card 5 Internal Error,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="GGIO5NConf" desc="Card 05 No_ConfigAndDetect">
+                <DAI name="stVal" sAddr="S,0,24695,0;TX1:Tarjeta 5 No_ConfigYDetect,TX2:Card 5 No_ConfigAndDetect,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="GGIO5Nodet" desc="Card 05 ConfigAndNo_Detect">
+                <DAI name="stVal" sAddr="S,0,24693,0;TX1:Tarjeta 5 ConfigYNo_Detec,TX2:Card 5 ConfigAndNo_Detect,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="GGIO5Ok" desc="Card 05 ok">
+                <DAI name="stVal" sAddr="S,0,24692,0;TX1:Tarjeta 5 ok,TX2:Card 5 ok,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="HSetAlm" desc="Alarm clock settings">
+                <DAI name="stVal" sAddr="S,0,24639,0;TX1:Alarma Configuracion horaria,TX2:Alarm clock settings,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="HwCrAlm" desc="HW Error">
+                <DAI name="stVal" sAddr="S,0,24608,0;TX1:Error critico de hardware,TX2:HW Error,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="InstNam" desc="Installation name">
+                <DAI name="d">
+                    <Val>Installation name</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,2,1,0" />
+            </DOI>
+            <DOI name="InstShNam" desc="Installation short name">
+                <DAI name="d">
+                    <Val>Installation short name</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,2,2,0" />
+            </DOI>
+            <DOI name="IosCPUAlm" desc="IOs CPU Access Error">
+                <DAI name="stVal" sAddr="S,0,24610,0;TX1:Error acceso IOs CPU,TX2:IOs CPU Access Error,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="LogInTest" desc="Test mode signal">
+                <DAI name="d">
+                    <Val>Test mode signal</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,2,6,0">
+                    <Val>-1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="MaskEna" desc="Enable Events Record">
+                <DAI name="d">
+                    <Val>Enable Events Record</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,2,0,1">
+                    <Val>1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="Mod" desc="GEN.LPHD1.Mod">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,2052, , ,0, , , ;TX1:GEN.LPHD1.Mod,TX2:GEN.LPHD1.Mod" />
+                </SDI>
+            </DOI>
+            <DOI name="PhyHealth" desc="PhyHealth">
+                <DAI name="stVal" sAddr="S,0,24928,3;TX1:Estado PhyHealth,TX2:PhyHealth,AC:1.2.3,ED:1.1.1,AD:0.0.0" />
+            </DOI>
+            <DOI name="PwrDn" desc="Power Down">
+                <DAI name="stVal" sAddr="S,0,24745,0;TX1:Apagado del equipo,TX2:Power Down,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="PwrUp" desc="Power Up">
+                <DAI name="stVal" sAddr="S,0,24744,0;TX1:Encendido del equipo,TX2:Power Up,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="RelNam" desc="Relay name">
+                <DAI name="d">
+                    <Val>Relay name</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,2,3,0" />
+            </DOI>
+            <DOI name="RelShNam" desc="Relay short name">
+                <DAI name="d">
+                    <Val>Relay short name</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,2,4,0" />
+            </DOI>
+            <DOI name="RsDev" desc="Reset Device">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <DAI name="stVal" sAddr="S,0,24804,0;TX1:Reset equipo,TX2:Reset Device,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="RTCAlm" desc="RTC Error">
+                <DAI name="stVal" sAddr="S,0,24609,0;TX1:Error de reloj RTC,TX2:RTC Error,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="S1DOAlm" desc="Position 1 Activ. DO Error">
+                <DAI name="stVal" sAddr="S,0,24616,0;TX1:Alarma reles posicion 1,TX2:Position 1 Activ. DO Error,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="S2DOAlm" desc="Position 2 Activ. DO Error">
+                <DAI name="stVal" sAddr="S,0,24617,0;TX1:Alarma reles posicion 2,TX2:Position 2 Activ. DO Error,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="S3DOAlm" desc="Position 3 Activ. DO Error">
+                <DAI name="stVal" sAddr="S,0,24618,0;TX1:Alarma reles posicion 3,TX2:Position 3 Activ. DO Error,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="S4DOAlm" desc="Position 4 Activ. DO Error">
+                <DAI name="stVal" sAddr="S,0,24619,0;TX1:Alarma reles posicion 4,TX2:Position 4 Activ. DO Error,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="SigClr" desc="Signal 0">
+                <DAI name="stVal" sAddr="S,0,24607,0;TX1:Signal 0,TX2:Signal 0,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="SigSet" desc="Signal 1">
+                <DAI name="stVal" sAddr="S,0,24606,0;TX1:Signal 1,TX2:Signal 1,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="Sim" desc="Receive simulated goose">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <DAI name="stVal" sAddr="S,0,24821,0;TX1:Recepcion goose simulados,TX2:Receive simulated goose,AC:1.2,ED:1.1,AD:0.0" />
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,480, , ,0, , , ;TX1:Recepcion goose simulados,TX2:Receive simulated goose" />
+                </SDI>
+            </DOI>
+            <DOI name="TestEna" desc="Test mode On">
+                <DAI name="d">
+                    <Val>Test mode On</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,2,5,0">
+                    <Val>0</Val>
+                </DAI>
+            </DOI>
+            <DOI name="TestSt" desc="Status test mode">
+                <DAI name="stVal" sAddr="S,0,24818,0;TX1:Estado modo test,TX2:Status test mode,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="VccError" desc="General Vcc Error">
+                <DAI name="stVal" sAddr="S,0,24635,0;TX1:Error General Vcc,TX2:General Vcc Error,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="VerAlm" desc="Version Comp.Error">
+                <DAI name="stVal" sAddr="S,0,24638,0;TX1:Error Comp. Versiones,TX2:Version Comp.Error,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+        </LN>
+        <LN desc="Measure Historics" inst="1" lnClass="MHRE" lnType="tdDaEd2GEN_MHRE_PT_v2">
+            <DOI name="DayEna" desc="Calendar mask disabled">
+                <DAI name="d">
+                    <Val>Calendar mask disabled</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,91,4,0">
+                    <Val>1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="DOrdBMaxIn" desc="MAX BATTERY INIT">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,34, , ,0 , , , ;TX1:INIT_ MAX_BATERIA,TX2:MAX BATTERY INIT" />
+                </SDI>
+            </DOI>
+            <DOI name="DOrdBMinIn" desc="MIN BATTERY INIT">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,46, , ,0 , , , ;TX1:INIT_ MIN_BATERIA,TX2:MIN BATTERY INIT" />
+                </SDI>
+            </DOI>
+            <DOI name="DOrdFMaxIn" desc="MAX FREQ INIT">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,32, , ,0 , , , ;TX1:INIT_ MAX_F,TX2:MAX FREQ INIT" />
+                </SDI>
+            </DOI>
+            <DOI name="DOrdFMinIn" desc="MIN FREQ INIT">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,44, , ,0 , , , ;TX1:INIT_ MIN_F,TX2:MIN FREQ INIT" />
+                </SDI>
+            </DOI>
+            <DOI name="DOrdIMaxIn" desc="MAX CURRENT INIT">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,26, , ,0 , , , ;TX1:INIT_MAX_I,TX2:MAX CURRENT INIT" />
+                </SDI>
+            </DOI>
+            <DOI name="DOrdIMinIn" desc="MIN CURRENT INIT">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,38, , ,0 , , , ;TX1:INIT_MIN_I,TX2:MIN CURRENT INIT" />
+                </SDI>
+            </DOI>
+            <DOI name="DOrdMaxIn" desc="MAXIMETER INIT">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,24, , ,0 , , , ;TX1:INIT_MAXIMETROS,TX2:MAXIMETER INIT" />
+                </SDI>
+            </DOI>
+            <DOI name="DOrdMinIn" desc="MINIMETER INIT">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,36, , ,0 , , , ;TX1:INIT_MINIMETROS,TX2:MINIMETER INIT" />
+                </SDI>
+            </DOI>
+            <DOI name="DOrdPMaxIn" desc="MAX POWER INIT">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,30, , ,0 , , , ;TX1:INIT_ MAX_P,TX2:MAX POWER INIT" />
+                </SDI>
+            </DOI>
+            <DOI name="DOrdPMinIn" desc="MIN POWER INIT">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,42, , ,0 , , , ;TX1:INIT_ MIN_P,TX2:MIN POWER INIT" />
+                </SDI>
+            </DOI>
+            <DOI name="DOrdRstHis" desc="HISTORIC RESET">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,12, , ,0 , , , ;TX1:BORRADO_HISTORICOS,TX2:HISTORIC RESET" />
+                </SDI>
+            </DOI>
+            <DOI name="DOrdVMaxIn" desc="MAX VOLTAGE INIT">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,28, , ,0 , , , ;TX1:INIT_ MAX_V,TX2:MAX VOLTAGE INIT" />
+                </SDI>
+            </DOI>
+            <DOI name="DOrdVMinIn" desc="MIN VOLTAGE INIT">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,40, , ,0 , , , ;TX1:INIT_ MIN_V,TX2:MIN VOLTAGE INIT" />
+                </SDI>
+            </DOI>
+            <DOI name="EndH" desc="Recording Stop time">
+                <DAI name="maxVal">
+                    <Val>23</Val>
+                </DAI>
+                <DAI name="minVal">
+                    <Val>0</Val>
+                </DAI>
+                <DAI name="stepSize">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="d">
+                    <Val>Recording Stop time</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,91,3,0">
+                    <Val>23</Val>
+                </DAI>
+            </DOI>
+            <DOI name="FriEna" desc="Friday Enabled">
+                <DAI name="d">
+                    <Val>Friday Enabled</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,91,10,0">
+                    <Val>1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="LogMx1" desc="Measure 1">
+                <DAI name="d">
+                    <Val>Measure 1</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,91,12,0">
+                    <Val>PROT/MMXU1.A.net.cVal.mag.f</Val>
+                </DAI>
+            </DOI>
+            <DOI name="LogMx10" desc="Measure 10">
+                <DAI name="d">
+                    <Val>Measure 10</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,91,21,0">
+                    <Val>-1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="LogMx11" desc="Measure 11">
+                <DAI name="d">
+                    <Val>Measure 11</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,91,22,0">
+                    <Val>-1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="LogMx12" desc="Measure 12">
+                <DAI name="d">
+                    <Val>Measure 12</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,91,23,0">
+                    <Val>-1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="LogMx13" desc="Measure 13">
+                <DAI name="d">
+                    <Val>Measure 13</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,91,24,0">
+                    <Val>-1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="LogMx14" desc="Measure 14">
+                <DAI name="d">
+                    <Val>Measure 14</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,91,25,0">
+                    <Val>-1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="LogMx15" desc="Measure 15">
+                <DAI name="d">
+                    <Val>Measure 15</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,91,26,0">
+                    <Val>-1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="LogMx2" desc="Measure 2">
+                <DAI name="d">
+                    <Val>Measure 2</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,91,13,0">
+                    <Val>PROT/MMXU1.PhV.net.cVal.mag.f</Val>
+                </DAI>
+            </DOI>
+            <DOI name="LogMx3" desc="Measure 3">
+                <DAI name="d">
+                    <Val>Measure 3</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,91,14,0">
+                    <Val>PROT/MMXU1.TotW.mag.f</Val>
+                </DAI>
+            </DOI>
+            <DOI name="LogMx4" desc="Measure 4">
+                <DAI name="d">
+                    <Val>Measure 4</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,91,15,0">
+                    <Val>PROT/MMXU1.TotVAr.mag.f</Val>
+                </DAI>
+            </DOI>
+            <DOI name="LogMx5" desc="Measure 5">
+                <DAI name="d">
+                    <Val>Measure 5</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,91,16,0">
+                    <Val>PROT/MMXU1.TotVA.mag.f</Val>
+                </DAI>
+            </DOI>
+            <DOI name="LogMx6" desc="Measure 6">
+                <DAI name="d">
+                    <Val>Measure 6</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,91,17,0">
+                    <Val>PROT/MMXU1.Hz.mag.f</Val>
+                </DAI>
+            </DOI>
+            <DOI name="LogMx7" desc="Measure 7">
+                <DAI name="d">
+                    <Val>Measure 7</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,91,18,0">
+                    <Val>-1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="LogMx8" desc="Measure 8">
+                <DAI name="d">
+                    <Val>Measure 8</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,91,19,0">
+                    <Val>-1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="LogMx9" desc="Measure 9">
+                <DAI name="d">
+                    <Val>Measure 9</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,91,20,0">
+                    <Val>-1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="Mod" desc="GEN.MHRE1.Mod">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,2230, , ,0, , , ;TX1:GEN.MHRE1.Mod,TX2:GEN.MHRE1.Mod" />
+                </SDI>
+            </DOI>
+            <DOI name="MonEna" desc="Monday Enabled">
+                <DAI name="d">
+                    <Val>Monday Enabled</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,91,6,0">
+                    <Val>1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="RegIntTmm" desc="Record interval (min)">
+                <DAI name="maxVal">
+                    <Val>1440</Val>
+                </DAI>
+                <DAI name="minVal">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="stepSize">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="d">
+                    <Val>Record interval (min)</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,91,1,0">
+                    <Val>15</Val>
+                </DAI>
+            </DOI>
+            <DOI name="SatEna" desc="Saturday Enabled">
+                <DAI name="d">
+                    <Val>Saturday Enabled</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,91,11,0">
+                    <Val>1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="SmTmm" desc="Average time (min)">
+                <DAI name="maxVal">
+                    <Val>15</Val>
+                </DAI>
+                <DAI name="minVal">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="stepSize">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="d">
+                    <Val>Average time (min)</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,91,0,0">
+                    <Val>5</Val>
+                </DAI>
+            </DOI>
+            <DOI name="StH" desc="Recording Start time">
+                <DAI name="maxVal">
+                    <Val>23</Val>
+                </DAI>
+                <DAI name="minVal">
+                    <Val>0</Val>
+                </DAI>
+                <DAI name="stepSize">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="d">
+                    <Val>Recording Start time</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,91,2,0">
+                    <Val>1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="SunEna" desc="Sunday Enabled">
+                <DAI name="d">
+                    <Val>Sunday Enabled</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,91,5,0">
+                    <Val>1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="ThuEna" desc="Thursday Enabled">
+                <DAI name="d">
+                    <Val>Thursday Enabled</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,91,9,0">
+                    <Val>1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="TueEna" desc="Tuesday Enabled">
+                <DAI name="d">
+                    <Val>Tuesday Enabled</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,91,7,0">
+                    <Val>1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="WedEna" desc="Wednesday Enabled">
+                <DAI name="d">
+                    <Val>Wednesday Enabled</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,91,8,0">
+                    <Val>1</Val>
+                </DAI>
+            </DOI>
+        </LN>
+        <LN desc="Vaux Supervision" inst="1" lnClass="CESS" lnType="tdDaEd2GEN_CESS_v1">
+            <DOI name="HiSuppV" desc="Maximum Vaux (V)">
+                <DAI name="d">
+                    <Val>Maximum Vaux (V)</Val>
+                </DAI>
+                <SDI name="minVal">
+                    <DAI name="f">
+                        <Val>10</Val>
+                    </DAI>
+                </SDI>
+                <SDI name="stepSize">
+                    <DAI name="f">
+                        <Val>1</Val>
+                    </DAI>
+                </SDI>
+                <SDI name="maxVal">
+                    <DAI name="f">
+                        <Val>280</Val>
+                    </DAI>
+                </SDI>
+                <SDI name="setMag">
+                    <DAI name="f" sAddr="A,1,101,2,0">
+                        <Val>29</Val>
+                    </DAI>
+                </SDI>
+            </DOI>
+            <DOI name="LoSuppV" desc="Minimum Vaux (V)">
+                <DAI name="d">
+                    <Val>Minimum Vaux (V)</Val>
+                </DAI>
+                <SDI name="minVal">
+                    <DAI name="f">
+                        <Val>10</Val>
+                    </DAI>
+                </SDI>
+                <SDI name="stepSize">
+                    <DAI name="f">
+                        <Val>1</Val>
+                    </DAI>
+                </SDI>
+                <SDI name="maxVal">
+                    <DAI name="f">
+                        <Val>280</Val>
+                    </DAI>
+                </SDI>
+                <SDI name="setMag">
+                    <DAI name="f" sAddr="A,1,101,1,0">
+                        <Val>21</Val>
+                    </DAI>
+                </SDI>
+            </DOI>
+            <DOI name="MaskEna" desc="Enable Events Record">
+                <DAI name="d">
+                    <Val>Enable Events Record</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,101,3,1">
+                    <Val>1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="Mod" desc="GEN.CESS1.Mod">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,2250, , ,0, , , ;TX1:GEN.CESS1.Mod,TX2:GEN.CESS1.Mod" />
+                </SDI>
+            </DOI>
+            <DOI name="OverVcc" desc="HH Infedd">
+                <DAI name="stVal" sAddr="S,0,24582,0;TX1:Aliment. mayor Umbral Sup,TX2:HH Infedd,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="StEna" desc="Vcc Supervision Status">
+                <DAI name="stVal" sAddr="S,0,24579,0;TX1:Estado Supervision Vcc,TX2:Vcc Supervision Status,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="SupSpvEna" desc="Enabled">
+                <DAI name="d">
+                    <Val>Enabled</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,101,0,0">
+                    <Val>1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="UnderVcc" desc="LL Infeed">
+                <DAI name="stVal" sAddr="S,0,24583,0;TX1:Aliment. menor Umbral Inf,TX2:LL Infeed,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+        </LN>
+        <LN desc="Inner Temperature Superv." inst="1" lnClass="CTSU" lnType="tdDaEd2GEN_CTSU_v2">
+            <DOI name="HiTmpVal" desc="Maximum temperature (ºC)">
+                <DAI name="d">
+                    <Val>Maximum temperature (ºC)</Val>
+                </DAI>
+                <SDI name="minVal">
+                    <DAI name="f">
+                        <Val>50</Val>
+                    </DAI>
+                </SDI>
+                <SDI name="stepSize">
+                    <DAI name="f">
+                        <Val>1</Val>
+                    </DAI>
+                </SDI>
+                <SDI name="maxVal">
+                    <DAI name="f">
+                        <Val>100</Val>
+                    </DAI>
+                </SDI>
+                <SDI name="setMag">
+                    <DAI name="f" sAddr="A,1,102,2,0">
+                        <Val>50</Val>
+                    </DAI>
+                </SDI>
+            </DOI>
+            <DOI name="LoTmpVal" desc="Minimum temperature (ºC)">
+                <DAI name="d">
+                    <Val>Minimum temperature (ºC)</Val>
+                </DAI>
+                <SDI name="minVal">
+                    <DAI name="f">
+                        <Val>-40</Val>
+                    </DAI>
+                </SDI>
+                <SDI name="stepSize">
+                    <DAI name="f">
+                        <Val>1</Val>
+                    </DAI>
+                </SDI>
+                <SDI name="maxVal">
+                    <DAI name="f">
+                        <Val>0</Val>
+                    </DAI>
+                </SDI>
+                <SDI name="setMag">
+                    <DAI name="f" sAddr="A,1,102,1,0">
+                        <Val>-40</Val>
+                    </DAI>
+                </SDI>
+            </DOI>
+            <DOI name="MaskEna" desc="Enable Events Record">
+                <DAI name="d">
+                    <Val>Enable Events Record</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,102,3,1">
+                    <Val>1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="Mod" desc="GEN.CTSU1.Mod">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,2252, , ,0, , , ;TX1:GEN.CTSU1.Mod,TX2:GEN.CTSU1.Mod" />
+                </SDI>
+            </DOI>
+            <DOI name="NotAvail" desc="Temp.Sensor not available">
+                <DAI name="stVal" sAddr="S,0,24766,0;TX1:Sensor Temp.no disponible,TX2:Temp.Sensor not available,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="OverTemp" desc="HH Temperature">
+                <DAI name="stVal" sAddr="S,0,24584,0;TX1:Temperat.mayor Umbral Sup,TX2:HH Temperature,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="StEna" desc="Temperature Spv.activated">
+                <DAI name="stVal" sAddr="S,0,24742,0;TX1:Hab.Supervision Temperatura,TX2:Temperature Spv.activated,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="Temp" desc="Temp.CTSU">
+                <DAI name="db">
+                    <Val>100</Val>
+                </DAI>
+                <SDI name="rangeC">
+                    <SDI name="max">
+                        <DAI name="f">
+                            <Val>1000</Val>
+                        </DAI>
+                    </SDI>
+                    <SDI name="min">
+                        <DAI name="f">
+                            <Val>-1000</Val>
+                        </DAI>
+                    </SDI>
+                </SDI>
+                <SDI name="units">
+                    <DAI name="SIUnit" valKind="Set">
+                        <Val>C</Val>
+                    </DAI>
+                </SDI>
+                <SDI name="mag">
+                    <DAI name="f" sAddr="M,0,1412,0;TX1:Medida temperatura,TX2:Temperature" />
+                </SDI>
+            </DOI>
+            <DOI name="TmpSpvEna" desc="Enabled">
+                <DAI name="d">
+                    <Val>Enabled</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,102,0,0">
+                    <Val>1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="UnderTemp" desc="LL Temperature">
+                <DAI name="stVal" sAddr="S,0,24585,0;TX1:Temperat.menor Umbral Inf,TX2:LL Temperature,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+        </LN>
+        <LN desc="Time master supervision" inst="1" lnClass="LTMS" lnType="tdDaEd2GEN_LTMS_v6">
+            <DOI name="AuthCfgErr" desc="Auth config SNTP error">
+                <DAI name="stVal" sAddr="S,0,24947,0;TX1:Auth config SNTP error,TX2:Auth config SNTP error,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="AuthRspErr">
+                <DAI name="stVal" sAddr="C,0,30;TX1:Errores de respuesta,TX2:Response error" />
+            </DOI>
+            <DOI name="EspTms" desc="T.delay Unicast message (seg)">
+                <DAI name="maxVal">
+                    <Val>60</Val>
+                </DAI>
+                <DAI name="minVal">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="stepSize">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="d">
+                    <Val>T.delay Unicast message (seg)</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,103,6,0">
+                    <Val>5</Val>
+                </DAI>
+            </DOI>
+            <DOI name="Mod" desc="GEN.LTMS1.Mod">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,2254, , ,0, , , ;TX1:GEN.LTMS1.Mod,TX2:GEN.LTMS1.Mod" />
+                </SDI>
+            </DOI>
+            <DOI name="NRetry" desc="Retry number">
+                <DAI name="maxVal">
+                    <Val>9</Val>
+                </DAI>
+                <DAI name="minVal">
+                    <Val>0</Val>
+                </DAI>
+                <DAI name="stepSize">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="d">
+                    <Val>Retry number</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,103,7,1">
+                    <Val>3</Val>
+                </DAI>
+            </DOI>
+            <DOI name="PollTms" desc="SNTP Polling Time (seg)">
+                <DAI name="maxVal">
+                    <Val>86400</Val>
+                </DAI>
+                <DAI name="minVal">
+                    <Val>10</Val>
+                </DAI>
+                <DAI name="stepSize">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="d">
+                    <Val>SNTP Polling Time (seg)</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,103,5,0">
+                    <Val>60</Val>
+                </DAI>
+            </DOI>
+            <DOI name="PTPDelM" desc="PTP delay mechanism">
+                <DAI name="d">
+                    <Val>PTP delay mechanism</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,103,9,0">
+                    <Val>P2P</Val>
+                </DAI>
+            </DOI>
+            <DOI name="PTPIface" desc="PTP Interface">
+                <DAI name="d">
+                    <Val>PTP Interface</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,103,8,0">
+                    <Val>Eth1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="SNTPAuth" desc="SNTP Authentication">
+                <DAI name="d">
+                    <Val>SNTP Authentication</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,103,10,0">
+                    <Val>0</Val>
+                </DAI>
+            </DOI>
+            <DOI name="TmChSt1" desc="Channel 1 synchro">
+                <DAI name="stVal" sAddr="S,0,24941,0;TX1:Sincronizacion canal 1,TX2:Channel 1 synchro ,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="TmChSt2" desc="Channel 2 synchro">
+                <DAI name="stVal" sAddr="S,0,24942,0;TX1:Sincronizacion canal 2,TX2:Channel 2 synchro ,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="TmSrcGtw1" desc="Main Time Source Gateway">
+                <DAI name="d">
+                    <Val>Main Time Source Gateway</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,103,2,0">
+                    <Val>Default</Val>
+                </DAI>
+            </DOI>
+            <DOI name="TmSrcGtw2" desc="Second. Time Source Gateway">
+                <DAI name="d">
+                    <Val>Second. Time Source Gateway</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,103,3,0">
+                    <Val>Default</Val>
+                </DAI>
+            </DOI>
+            <DOI name="TmSrcSet1" desc="Main Time Source">
+                <DAI name="d">
+                    <Val>Main Time Source</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,103,0,0">
+                    <Val>192.168.183.140</Val>
+                </DAI>
+            </DOI>
+            <DOI name="TmSrcSet2" desc="Secondary Time Source">
+                <DAI name="d">
+                    <Val>Secondary Time Source</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,103,1,0">
+                    <Val>0.0.0.0</Val>
+                </DAI>
+            </DOI>
+            <DOI name="TrustedKey" desc="SNTP key number">
+                <DAI name="maxVal">
+                    <Val>65535</Val>
+                </DAI>
+                <DAI name="minVal">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="stepSize">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="d">
+                    <Val>SNTP key number</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,103,11,0">
+                    <Val>1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="ValTm" desc="Not Synchro Time (min)">
+                <DAI name="maxVal">
+                    <Val>1440</Val>
+                </DAI>
+                <DAI name="minVal">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="stepSize">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="d">
+                    <Val>Not Synchro Time (min)</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,103,4,0">
+                    <Val>2</Val>
+                </DAI>
+            </DOI>
+        </LN>
+        <LN desc="Synchronization" inst="1" lnClass="LTIM" lnType="tdDaEd2GEN_LTIM_v2">
+            <DOI name="DayD" desc="Summer Day">
+                <DAI name="maxVal">
+                    <Val>31</Val>
+                </DAI>
+                <DAI name="minVal">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="stepSize">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="d">
+                    <Val>Summer Day</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,104,5,0">
+                    <Val>1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="DayS" desc="Winter Day">
+                <DAI name="maxVal">
+                    <Val>31</Val>
+                </DAI>
+                <DAI name="minVal">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="stepSize">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="d">
+                    <Val>Winter Day</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,104,11,0">
+                    <Val>1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="FSyncSNTP" desc="SNTP Failure">
+                <DAI name="stVal" sAddr="S,0,24805,0;TX1:Sincronizacion SNTP fallo,TX2:SNTP Failure,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="HrD" desc="Summer Hour">
+                <DAI name="maxVal">
+                    <Val>23</Val>
+                </DAI>
+                <DAI name="minVal">
+                    <Val>0</Val>
+                </DAI>
+                <DAI name="stepSize">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="d">
+                    <Val>Summer Hour</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,104,6,0">
+                    <Val>2</Val>
+                </DAI>
+            </DOI>
+            <DOI name="HrS" desc="Winter Hour">
+                <DAI name="maxVal">
+                    <Val>23</Val>
+                </DAI>
+                <DAI name="minVal">
+                    <Val>0</Val>
+                </DAI>
+                <DAI name="stepSize">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="d">
+                    <Val>Winter Hour</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,104,12,0">
+                    <Val>3</Val>
+                </DAI>
+            </DOI>
+            <DOI name="MaskEna" desc="Enable Events Record">
+                <DAI name="d">
+                    <Val>Enable Events Record</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,104,14,1">
+                    <Val>1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="MnD" desc="Summer Minute">
+                <DAI name="maxVal">
+                    <Val>59</Val>
+                </DAI>
+                <DAI name="minVal">
+                    <Val>0</Val>
+                </DAI>
+                <DAI name="stepSize">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="d">
+                    <Val>Summer Minute</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,104,7,0">
+                    <Val>0</Val>
+                </DAI>
+            </DOI>
+            <DOI name="MnS" desc="Winter Minute">
+                <DAI name="maxVal">
+                    <Val>59</Val>
+                </DAI>
+                <DAI name="minVal">
+                    <Val>0</Val>
+                </DAI>
+                <DAI name="stepSize">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="d">
+                    <Val>Winter Minute</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,104,13,0">
+                    <Val>0</Val>
+                </DAI>
+            </DOI>
+            <DOI name="Mod" desc="GEN.LTIM1.Mod">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,2256, , ,0, , , ;TX1:GEN.LTIM1.Mod,TX2:GEN.LTIM1.Mod" />
+                </SDI>
+            </DOI>
+            <DOI name="MthD" desc="Summer Month">
+                <DAI name="d">
+                    <Val>Summer Month</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,104,4,0">
+                    <Val>March</Val>
+                </DAI>
+            </DOI>
+            <DOI name="MthS" desc="Winter Month">
+                <DAI name="d">
+                    <Val>Winter Month</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,104,10,0">
+                    <Val>October</Val>
+                </DAI>
+            </DOI>
+            <DOI name="OccD" desc="Summer Changing Type">
+                <DAI name="d">
+                    <Val>Summer Changing Type</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,104,2,0">
+                    <Val>Last Of Month</Val>
+                </DAI>
+            </DOI>
+            <DOI name="OccS" desc="Winter Changing Type">
+                <DAI name="d">
+                    <Val>Winter Changing Type</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,104,8,0">
+                    <Val>Last Of Month</Val>
+                </DAI>
+            </DOI>
+            <DOI name="SummerTime" desc="Change to summer schedule">
+                <DAI name="stVal" sAddr="S,0,24833,0;TX1:Cambio horario a verano,TX2:Change to summer schedule,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="SyncAlm" desc="Device not synchronized">
+                <DAI name="stVal" sAddr="S,0,24819,0;TX1:Equipo no sincronizado,TX2:Device not synchronized,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="SyncAlmTm" desc="Not Synchro Time (min)">
+                <DAI name="maxVal">
+                    <Val>1440</Val>
+                </DAI>
+                <DAI name="minVal">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="stepSize">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="d">
+                    <Val>Not Synchro Time (min)</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,104,15,1">
+                    <Val>2</Val>
+                </DAI>
+            </DOI>
+            <DOI name="SyncCons" desc="Console Synchro">
+                <DAI name="stVal" sAddr="S,0,24740,0;TX1:Sincronizacion por consola,TX2:Console Synchro,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="SyncDispl" desc="Display Synchro">
+                <DAI name="stVal" sAddr="S,0,24739,0;TX1:Sincronizacion por display,TX2:Display Synchro,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="SyncIRIGB" desc="IRIG-B Synchro">
+                <DAI name="stVal" sAddr="S,0,24736,0;TX1:Sincronizacion por IRIG-B,TX2:IRIG-B Synchro,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="SyncProt" desc="Protocol Synchro">
+                <DAI name="stVal" sAddr="S,0,24738,0;TX1:Sincronizacion por protocolo,TX2:Protocol Synchro,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="SyncPTP" desc="PTP 1588 synchro">
+                <DAI name="stVal" sAddr="S,0,24939,0;TX1:Sincronizacion PTP 1588,TX2:PTP 1588 synchro,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="SyncSNTP" desc="SNTP Synchro">
+                <DAI name="stVal" sAddr="S,0,24737,0;TX1:Sincronizacion por SNTP,TX2:SNTP Synchro,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="TmDT" desc="Daylight saving time">
+                <DAI name="stVal" sAddr="S,0,24820,0;TX1:Horario de verano,TX2:Daylight saving time,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="TmOfsTmm" desc="Offset Local-UTC (min)">
+                <DAI name="maxVal">
+                    <Val>720</Val>
+                </DAI>
+                <DAI name="minVal">
+                    <Val>-720</Val>
+                </DAI>
+                <DAI name="stepSize">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="d">
+                    <Val>Offset Local-UTC (min)</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,104,0,0">
+                    <Val>-120</Val>
+                </DAI>
+            </DOI>
+            <DOI name="TmUseDT" desc="Season changing enabled">
+                <DAI name="d">
+                    <Val>Season changing enabled</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,104,1,0">
+                    <Val>0</Val>
+                </DAI>
+            </DOI>
+            <DOI name="WinterTime" desc="Change to winter schedule">
+                <DAI name="stVal" sAddr="S,0,24834,0;TX1:Cambio horario a invierno,TX2:Change to winter schedule,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="WkDayD" desc="Summer Week Day">
+                <DAI name="d">
+                    <Val>Summer Week Day</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,104,3,0">
+                    <Val>Sunday</Val>
+                </DAI>
+            </DOI>
+            <DOI name="WkDayS" desc="Winter Week Day">
+                <DAI name="d">
+                    <Val>Winter Week Day</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,104,9,0">
+                    <Val>Sunday</Val>
+                </DAI>
+            </DOI>
+        </LN>
+        <LN desc="GGIO Dir.1" inst="1" lnClass="GGIO" lnType="tdDaEd28_5GGIO_v1">
+            <DOI name="DI1Tmms" desc="Input 01 Time (ms)">
+                <DAI name="maxVal">
+                    <Val>5000</Val>
+                </DAI>
+                <DAI name="minVal">
+                    <Val>0</Val>
+                </DAI>
+                <DAI name="stepSize">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="d">
+                    <Val>Input 01 Time (ms)</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,111,3,0">
+                    <Val>16</Val>
+                </DAI>
+            </DOI>
+            <DOI name="DI1Type" desc="Digital Input Type - 01">
+                <DAI name="d">
+                    <Val>Digital Input Type - 01</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,111,4,0">
+                    <Val>NO</Val>
+                </DAI>
+            </DOI>
+            <DOI name="DI2Tmms" desc="Input 02 Time (ms)">
+                <DAI name="maxVal">
+                    <Val>5000</Val>
+                </DAI>
+                <DAI name="minVal">
+                    <Val>0</Val>
+                </DAI>
+                <DAI name="stepSize">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="d">
+                    <Val>Input 02 Time (ms)</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,111,5,0">
+                    <Val>16</Val>
+                </DAI>
+            </DOI>
+            <DOI name="DI2Type" desc="Digital Input Type - 02">
+                <DAI name="d">
+                    <Val>Digital Input Type - 02</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,111,6,0">
+                    <Val>NO</Val>
+                </DAI>
+            </DOI>
+            <DOI name="DI3Tmms" desc="Input 03 Time (ms)">
+                <DAI name="maxVal">
+                    <Val>5000</Val>
+                </DAI>
+                <DAI name="minVal">
+                    <Val>0</Val>
+                </DAI>
+                <DAI name="stepSize">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="d">
+                    <Val>Input 03 Time (ms)</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,111,7,0">
+                    <Val>1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="DI3Type" desc="Digital Input Type - 03">
+                <DAI name="d">
+                    <Val>Digital Input Type - 03</Val>
+                </DAI>
+        <LN0 desc="General configuration" inst="" lnClass="LLN0" lnType="tdDaEd2GEN_LN0_PT_v10">
+            <DOI name="AccAlm" desc="Access alarm">
+                <DAI name="stVal" sAddr="S,0,24828,0;TX1:Alarma de acceso,TX2:Access alarm,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="ActDesTms" desc="Checking period for active or inactive points (sec)">
+                <DAI name="maxVal">
+                    <Val>32767</Val>
+                </DAI>
+                <DAI name="minVal">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="stepSize">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="d">
+                    <Val>Checking period for active or inactive points (sec)</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,1,7,0">
+                    <Val>1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="AdmLocAc" desc="Administrator Local Access">
+                <DAI name="stVal" sAddr="S,0,24838,0;TX1:Acceso local administrador,TX2:Administrator Local Access,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="AdmLocEnd" desc="End Administrator Local Access">
+                <DAI name="stVal" sAddr="S,0,24839,0;TX1:Fin acceso local administrad,TX2:End Administrator Local Acce,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="AdmRemtAc" desc="Administrator Remote Access">
+                <DAI name="stVal" sAddr="S,0,24836,0;TX1:Acceso remoto administrador,TX2:Administrator Remote Access,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="AdmRemtEnd" desc="End Administrator Remote Access">
+                <DAI name="stVal" sAddr="S,0,24837,0;TX1:Fin acceso remoto administra,TX2:End Administrator Remote Acc,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="BlkFKeys" desc="Functional keys blocking">
+                <DAI name="d">
+                    <Val>Functional keys blocking</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,1,1,1">
+                    <Val>0</Val>
+                </DAI>
+            </DOI>
+            <DOI name="BlkFrCom" desc="Leds Blocking">
+                <DAI name="d">
+                    <Val>Leds Blocking</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,1,4,1">
+                    <Val>0</Val>
+                </DAI>
+            </DOI>
+            <DOI name="ButtPTms" desc="Button press Time (sec)">
+                <DAI name="maxVal">
+                    <Val>10</Val>
+                </DAI>
+                <DAI name="minVal">
+                    <Val>0</Val>
+                </DAI>
+                <DAI name="stepSize">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="d">
+                    <Val>Button press Time (sec)</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,1,24,1">
+                    <Val>0</Val>
+                </DAI>
+            </DOI>
+            <DOI name="CIDLoad" desc="CID Load Process">
+                <DAI name="stVal" sAddr="S,0,24748,0;TX1:Proceso Carga CID,TX2:CID Load Process,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="DOrdRstEvt" desc="EVENTS RESET">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,4, , ,0 , , , ;TX1:BORRADO_SUCESOS,TX2:EVENTS RESET" />
+                </SDI>
+            </DOI>
+            <DOI name="DOrdRstInf" desc="BUFFER RESET">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,0, , ,0 , , , ;TX1:BORRADO COLAS,TX2:BUFFER RESET" />
+                </SDI>
+            </DOI>
+            <DOI name="DOrdRstRel" desc="RELAY RESET">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,6, , ,0 , , , ;TX1:APAGAR_RELES,TX2:RELAY RESET" />
+                </SDI>
+            </DOI>
+            <DOI name="DOrdSimDB" desc="Database simulation">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,418, , ,0, , , ;TX1:Simulacion Base Datos(ON/OFF),TX2:Database simulation(ON/OFF)" />
+                </SDI>
+            </DOI>
+            <DOI name="DOrdSimIO" desc="IOs simulation">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,312, , ,0, , , ;TX1:Simulacion digitales(ON/OFF),TX2:IOs simulation(/)" />
+                </SDI>
+            </DOI>
+            <DOI name="DOrdSimM" desc="Measures simulation">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,416, , ,0, , , ;TX1:Simulacion medidas(ON/OFF),TX2:Measures simulation(ON/OFF)" />
+                </SDI>
+            </DOI>
+            <DOI name="EdTmoTms" desc="Timeout DP changes (sec)">
+                <DAI name="d">
+                    <Val>Timeout DP changes (sec)</Val>
+                </DAI>
+                <SDI name="minVal">
+                    <DAI name="f">
+                        <Val>0</Val>
+                    </DAI>
+                </SDI>
+                <SDI name="stepSize">
+                    <DAI name="f">
+                        <Val>0.1</Val>
+                    </DAI>
+                </SDI>
+                <SDI name="maxVal">
+                    <DAI name="f">
+                        <Val>60</Val>
+                    </DAI>
+                </SDI>
+                <SDI name="setMag">
+                    <DAI name="f" sAddr="A,1,1,12,0">
+                        <Val>10</Val>
+                    </DAI>
+                </SDI>
+            </DOI>
+            <DOI name="F10Button" desc="F10 Button">
+                <DAI name="stVal" sAddr="S,0,27945,0;TX1:Pulsador F10,TX2:F10 Button,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="F11Button" desc="F11 Button">
+                <DAI name="stVal" sAddr="S,0,27946,0;TX1:Pulsador F11,TX2:F11 Button,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="F12Button" desc="F12 Button">
+                <DAI name="stVal" sAddr="S,0,27947,0;TX1:Pulsador F12,TX2:F12 Button,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="F1Button" desc="F1 Button">
+                <DAI name="stVal" sAddr="S,0,27936,0;TX1:Pulsador F1,TX2:F1 Button,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="F2Button" desc="F2 Button">
+                <DAI name="stVal" sAddr="S,0,27937,0;TX1:Pulsador F2,TX2:F2 Button,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="F3Button" desc="F3 Button">
+                <DAI name="stVal" sAddr="S,0,27938,0;TX1:Pulsador F3,TX2:F3 Button,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="F4Button" desc="F4 Button">
+                <DAI name="stVal" sAddr="S,0,27939,0;TX1:Pulsador F4,TX2:F4 Button,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="F5Button" desc="F5 Button">
+                <DAI name="stVal" sAddr="S,0,27940,0;TX1:Pulsador F5,TX2:F5 Button,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="F6Button" desc="F6 Button">
+                <DAI name="stVal" sAddr="S,0,27941,0;TX1:Pulsador F6,TX2:F6 Button,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="F7Button" desc="F7 Button">
+                <DAI name="stVal" sAddr="S,0,27942,0;TX1:Pulsador F7,TX2:F7 Button,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="F8Button" desc="F8 Button">
+                <DAI name="stVal" sAddr="S,0,27943,0;TX1:Pulsador F8,TX2:F8 Button,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="F9Button" desc="F9 Button">
+                <DAI name="stVal" sAddr="S,0,27944,0;TX1:Pulsador F9,TX2:F9 Button,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="FButtType" desc="Functional buttons type">
+                <DAI name="d">
+                    <Val>Functional buttons type</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,1,23,1">
+                    <Val>52+Func.-No Conf.-</Val>
+                </DAI>
+            </DOI>
+            <DOI name="FKeysRem" desc="Functional keys (remote)">
+                <DAI name="d">
+                    <Val>Functional keys (remote)</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,1,3,1">
+                    <Val>0</Val>
+                </DAI>
+            </DOI>
+            <DOI name="FtpCh" desc="FTP/sFTP Settings Change">
+                <DAI name="stVal" sAddr="S,0,24604,0;TX1:Cambio Ajustes FTP/sFTP,TX2:FTP/sFTP Settings Change,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="FtpConn" desc="FTP connection">
+                <DAI name="stVal" sAddr="S,0,24746,0;TX1:Conexion FTP,TX2:FTP connection,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="GenFlickr" desc="Generic flicker DI parameters">
+                <DAI name="d">
+                    <Val>Generic flicker DI parameters</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,1,6,0">
+                    <Val>0</Val>
+                </DAI>
+            </DOI>
+            <DOI name="HMICh" desc="Display Settings Change">
+                <DAI name="stVal" sAddr="S,0,24602,0;TX1:Cambio Ajustes Display,TX2:Display Settings Change,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="HwStatus" desc="Hw Status OK (OK=1)">
+                <DAI name="stVal" sAddr="S,0,24577,0;TX1:Estado HW OK (OK=1),TX2:Hw Status OK (OK=1),AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="IButton" desc="I Button">
+                <DAI name="stVal" sAddr="S,0,27948,0;TX1:Pulsador I,TX2:I Button,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="ICDCh" desc="ICD Settings Change">
+                <DAI name="stVal" sAddr="S,0,24603,0;TX1:Cambio Ajustes ICD,TX2:ICD Settings Change,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="InitAlarm" desc="Reposicion de alarmas">
+                <DAI name="stVal" sAddr="S,0,24808,0;TX1:Reposicion de alarmas,TX2:Reposicion de alarmas,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="IrgType" desc="IRIG-B002 format">
+                <DAI name="d">
+                    <Val>IRIG-B002 format</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,1,15,1">
+                    <Val>UTC-without year</Val>
+                </DAI>
+            </DOI>
+            <DOI name="IrigFail" desc="Irig-B Failure">
+                <DAI name="stVal" sAddr="S,0,24580,0;TX1:Fallo Irig-B,TX2:Irig-B Failure,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="Lang" desc="Language">
+                <DAI name="d">
+                    <Val>Language</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,1,0,0">
+                    <Val>English</Val>
+                </DAI>
+            </DOI>
+            <DOI name="LEDRs" desc="LEDS RESET">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,10, , ,0 , , , ;TX1:APAGADO_LEDS,TX2:LEDS RESET" />
+                </SDI>
+            </DOI>
+            <DOI name="Loc" desc="Local control behaviour">
+                <DAI name="stVal" sAddr="S,0,27424,0;TX1:GEN.LLN0.Loc,TX2:GEN.LLN0.Loc,AC:1.2,ED:0.0,AD:0.0" />
+            </DOI>
+            <DOI name="LocSta" desc="HMI">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <DAI name="stVal" sAddr="S,0,24749,0;TX1:Cuadro,TX2:HMI,AC:2.1,ED:1.1,AD:0.0" />
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,314, , ,0, , , ;TX1:Cuadro(/),TX2:LocSta(/)" />
+                </SDI>
+            </DOI>
+            <DOI name="LogInDelRe" desc="Erase Records">
+                <DAI name="d">
+                    <Val>Erase Records</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,1,13,1">
+                    <Val>-1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="LogInLR" desc="Local/remote selection">
+                <DAI name="d">
+                    <Val>Local/remote selection</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,1,16,1">
+                    <Val>-1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="LRButt" desc="LR Button">
+                <DAI name="stVal" sAddr="S,0,27950,0;TX1:Pulsador LR,TX2:LR Button,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="LRButton" desc="L-R Button">
+                <DAI name="d">
+                    <Val>L-R Button</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,1,22,1">
+                    <Val>1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="LRmode" desc="Remote/Local Type">
+                <DAI name="d">
+                    <Val>Remote/Local Type</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,1,17,0">
+                    <Val>No HMI</Val>
+                </DAI>
+            </DOI>
+            <DOI name="MaskEna" desc="Enable Events Record">
+                <DAI name="d">
+                    <Val>Enable Events Record</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,1,20,1">
+                    <Val>1</Val>
+                </DAI>
+            </DOI>
+            <DOI name="MltLev" desc="MltLev">
+                <DAI name="d">
+                    <Val>MltLev</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,1,21,1">
+                    <Val>0</Val>
+                </DAI>
+            </DOI>
+            <DOI name="MMSCh" desc="ACSI Settings Change">
+                <DAI name="stVal" sAddr="S,0,24605,0;TX1:Cambio Ajustes 61850,TX2:ACSI Settings Change,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="Mod" desc="GEN.LLN0.Mod">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,2050, , ,0, , , ;TX1:GEN.LLN0.Mod,TX2:GEN.LLN0.Mod" />
+                </SDI>
+            </DOI>
+            <DOI name="NcambA" desc="Number of changes for activation in the period">
+                <DAI name="maxVal">
+                    <Val>255</Val>
+                </DAI>
+                <DAI name="minVal">
+                    <Val>0</Val>
+                </DAI>
+                <DAI name="stepSize">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="d">
+                    <Val>Number of changes for activation in the period</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,1,8,0">
+                    <Val>0</Val>
+                </DAI>
+            </DOI>
+            <DOI name="NcambD" desc="Number of changes for deactivation in the period">
+                <DAI name="maxVal">
+                    <Val>255</Val>
+                </DAI>
+                <DAI name="minVal">
+                    <Val>0</Val>
+                </DAI>
+                <DAI name="stepSize">
+                    <Val>1</Val>
+                </DAI>
+                <DAI name="d">
+                    <Val>Number of changes for deactivation in the period</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,1,9,0">
+                    <Val>0</Val>
+                </DAI>
+            </DOI>
+            <DOI name="OButton" desc="O Button">
+                <DAI name="stVal" sAddr="S,0,27949,0;TX1:Pulsador O,TX2:O Button,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="OrdReleTms" desc="Command duration Time (sec)">
+                <DAI name="d">
+                    <Val>Command duration Time (sec)</Val>
+                </DAI>
+                <SDI name="minVal">
+                    <DAI name="f">
+                        <Val>0.1</Val>
+                    </DAI>
+                </SDI>
+                <SDI name="stepSize">
+                    <DAI name="f">
+                        <Val>0.1</Val>
+                    </DAI>
+                </SDI>
+                <SDI name="maxVal">
+                    <DAI name="f">
+                        <Val>20</Val>
+                    </DAI>
+                </SDI>
+                <SDI name="setMag">
+                    <DAI name="f" sAddr="A,1,1,11,0">
+                        <Val>1</Val>
+                    </DAI>
+                </SDI>
+            </DOI>
+            <DOI name="PSMode" desc="Sectionalizer Mode">
+                <DAI name="stVal" sAddr="S,0,17136,0;TX1:Modo Seccionalizador,TX2:Sectionalizer Mode,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="PSup" desc="PSup.LLN0">
+                <DAI name="db">
+                    <Val>100</Val>
+                </DAI>
+                <SDI name="rangeC">
+                    <SDI name="max">
+                        <DAI name="f">
+                            <Val>300</Val>
+                        </DAI>
+                    </SDI>
+                    <SDI name="min">
+                        <DAI name="f">
+                            <Val>0</Val>
+                        </DAI>
+                    </SDI>
+                </SDI>
+                <SDI name="units">
+                    <DAI name="SIUnit" valKind="Set">
+                        <Val>V</Val>
+                    </DAI>
+                </SDI>
+                <SDI name="mag">
+                    <DAI name="f" sAddr="M,0,751,0;TX1:Tension Alimentacion,TX2:Power Supply" />
+                </SDI>
+            </DOI>
+            <DOI name="RemCtlBlk" desc="Local State">
+                <DAI name="ctlModel">
+                    <Val>direct-with-normal-security</Val>
+                </DAI>
+                <DAI name="stVal" sAddr="S,0,24750,0;TX1:Estado Local,TX2:Local State,AC:1.2,ED:1.1,AD:0.0" />
+                <SDI name="Oper">
+                    <DAI name="ctlVal" sAddr="O,0,316, , ,0, , , ;TX1:Local Telemando(/),TX2:RemCtlBlk(/)" />
+                </SDI>
+            </DOI>
+            <DOI name="ResetDev" desc="Reset Pending change MACP/IP">
+                <DAI name="stVal" sAddr="S,0,24751,0;TX1:Pend. Reset cambio MAC/IP,TX2:Reset Pending change MACP/IP,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="SetCh1" desc="Table 1 Settings Change">
+                <DAI name="stVal" sAddr="S,0,24596,0;TX1:Cambio Ajustes Tabla 1,TX2:Table 1 Settings Change,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="SetCh2" desc="Table 2 Settings Change">
+                <DAI name="stVal" sAddr="S,0,24597,0;TX1:Cambio Ajustes Tabla 2,TX2:Table 2 Settings Change,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="SetCh3" desc="Table 3 Settings Change">
+                <DAI name="stVal" sAddr="S,0,24598,0;TX1:Cambio Ajustes Tabla 3,TX2:Table 3 Settings Change,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="SetCh4" desc="Table 4 Settings Change">
+                <DAI name="stVal" sAddr="S,0,24599,0;TX1:Cambio Ajustes Tabla 4,TX2:Table 4 Settings Change,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="SetCh5" desc="Table 5 Settings Change">
+                <DAI name="stVal" sAddr="S,0,24600,0;TX1:Cambio Ajustes Tabla 5,TX2:Table 5 Settings Change,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="SetCh6" desc="Table 6 Settings Change">
+                <DAI name="stVal" sAddr="S,0,24601,0;TX1:Cambio Ajustes Tabla 6,TX2:Table 6 Settings Change,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="SetChGen" desc="Active Settings Change">
+                <DAI name="stVal" sAddr="S,0,24595,0;TX1:Cambio Ajustes Activos,TX2:Active Settings Change,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="SFtpConn" desc="Secure connection">
+                <DAI name="stVal" sAddr="S,0,24758,0;TX1:Conexion segura,TX2:Secure connection,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="SimBd" desc="ST Simulation BBDDs">
+                <DAI name="stVal" sAddr="S,0,24847,0;TX1:ST Simulacion BBDDs,TX2:ST Simulation BBDDs,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="StrLrMod" desc="Start Local-Remote Mode">
+                <DAI name="d">
+                    <Val>Start Local-Remote Mode</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,1,25,1">
+                    <Val>Previous</Val>
+                </DAI>
+            </DOI>
+            <DOI name="TOrdGen" desc="Generic order time">
+                <DAI name="d">
+                    <Val>Generic order time</Val>
+                </DAI>
+                <DAI name="setVal" sAddr="A,1,1,10,0">
+                    <Val>0</Val>
+                </DAI>
+            </DOI>
+            <DOI name="WebConn" desc="Web connection">
+                <DAI name="stVal" sAddr="S,0,24747,0;TX1:Conexion Servidor Web,TX2:Web connection,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+            <DOI name="WriteCID" desc="Config changes in CID">
+                <DAI name="stVal" sAddr="S,0,24578,0;TX1:Estado escritura ajustes CID,TX2:Config changes in CID,AC:1.2,ED:1.1,AD:0.0" />
+            </DOI>
+        </LN0></TD:dummy></Private><DNPESCLAVOEF>
+<TablasDNPEsclavo eFSvers="6.8.3" inst="GEN/DNPITCP1" vers="L047739@P451802 (2020-09-14 15:52:02)">
+    <TAB IdTabla="1" desc="Digital signals">
+        <sen Class="1" Inv="0" Time="2" Tipo="1" UCL="0" cin="0" nP="0" nUCL="32" num="0" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.GEN.GGIO2.Ind1.ST.stVal" />
+        <sen Class="1" Inv="0" Time="2" Tipo="1" UCL="0" cin="0" nP="1" nUCL="24750" num="1" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.GEN.LLN0.RemCtlBlk.ST.stVal" />
+        <sen Class="1" Inv="0" Time="2" Tipo="1" UCL="0" cin="0" nP="2" nUCL="16384" num="2" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.RREC1.RecSt.ST.general" />
+        <sen Class="1" Inv="0" Time="2" Tipo="1" UCL="0" cin="0" nP="3" nUCL="9223" num="3" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.GEN.pGGIO1.Ind8.ST.stVal" />
+        <sen Class="1" Inv="0" Time="2" Tipo="1" UCL="0" cin="0" nP="4" nUCL="9224" num="4" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.GEN.pGGIO1.Ind9.ST.stVal" />
+        <sen Class="1" Inv="0" Time="2" Tipo="1" UCL="0" cin="0" nP="5" nUCL="9216" num="5" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.GEN.pGGIO1.Ind1.ST.stVal" />
+        <sen Class="1" Inv="0" Time="2" Tipo="1" UCL="0" cin="0" nP="6" nUCL="9217" num="6" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.GEN.pGGIO1.Ind2.ST.stVal" />
+        <sen Class="1" Inv="0" Time="2" Tipo="1" UCL="0" cin="0" nP="7" nUCL="9218" num="7" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.GEN.pGGIO1.Ind3.ST.stVal" />
+        <sen Class="1" Inv="0" Time="2" Tipo="1" UCL="0" cin="0" nP="8" nUCL="9219" num="8" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.GEN.pGGIO1.Ind4.ST.stVal" />
+        <sen Class="1" Inv="0" Time="2" Tipo="1" UCL="0" cin="0" nP="9" nUCL="9220" num="9" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.GEN.pGGIO1.Ind5.ST.stVal" />
+        <sen Class="1" Inv="0" Time="2" Tipo="1" UCL="0" cin="0" nP="10" nUCL="24608" num="10" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.GEN.LPHD1.HwCrAlm.ST.stVal" />
+        <sen Class="1" Inv="0" Time="2" Tipo="1" UCL="0" cin="0" nP="11" nUCL="9243" num="11" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.GEN.pGGIO1.Ind28.ST.stVal" />
+        <sen Class="1" Inv="0" Time="2" Tipo="1" UCL="0" cin="0" nP="12" nUCL="8356" num="12" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.LLN0.ASetGroup5.ST.stVal" />
+        <sen Class="1" Inv="1" Time="2" Tipo="1" UCL="0" cin="0" nP="13" nUCL="9225" num="13" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.GEN.pGGIO1.Ind10.ST.stVal" />
+        <sen Class="1" Inv="0" Time="2" Tipo="1" UCL="0" cin="0" nP="14" nUCL="8352" num="14" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.LLN0.ASetGroup1.ST.stVal" />
+        <sen Class="1" Inv="0" Time="2" Tipo="1" UCL="0" cin="0" nP="15" nUCL="8353" num="15" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.LLN0.ASetGroup2.ST.stVal" />
+        <sen Class="1" Inv="0" Time="2" Tipo="1" UCL="0" cin="0" nP="16" nUCL="34" num="16" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.GEN.GGIO2.Ind3.ST.stVal" />
+        <sen Class="1" Inv="0" Time="2" Tipo="1" UCL="0" cin="0" nP="17" nUCL="24741" num="17" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.RHLT1.Status.ST.stVal" />
+        <sen Class="1" Inv="0" Time="2" Tipo="1" UCL="0" cin="0" nP="18" nUCL="17365" num="18" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.PCLO1.StEna.ST.stVal" />
+        <sen Class="1" Inv="1" Time="2" Tipo="1" UCL="0" cin="0" nP="19" nUCL="3" num="19" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.GEN.GGIO1.Ind4.ST.stVal" />
+        <sen Class="1" Inv="0" Time="2" Tipo="1" UCL="0" cin="0" nP="20" nUCL="38" num="20" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.GEN.GGIO2.Ind7.ST.stVal" />
+        <sen Class="1" Inv="0" Time="2" Tipo="1" UCL="0" cin="0" nP="21" nUCL="9230" num="21" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.GEN.pGGIO1.Ind15.ST.stVal" />
+        <sen Class="1" Inv="0" Time="2" Tipo="1" UCL="0" cin="0" nP="22" nUCL="9226" num="22" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.GEN.pGGIO1.Ind11.ST.stVal" />
+        <sen Class="1" Inv="0" Time="2" Tipo="1" UCL="0" cin="0" nP="23" nUCL="8354" num="23" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.LLN0.ASetGroup3.ST.stVal" />
+    </TAB>
+    <TAB IdTabla="2" desc="Measurements">
+        <med Class="0" DeadBand="0" Dec="0" UCL="0" fondo="0.00" nP="0" nUCL="176" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.MMXU1.A.phsA.MX.cVal.mag.f" />
+        <med Class="0" DeadBand="0" Dec="0" UCL="0" fondo="0.00" nP="1" nUCL="177" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.MMXU1.A.phsB.MX.cVal.mag.f" />
+        <med Class="0" DeadBand="0" Dec="0" UCL="0" fondo="0.00" nP="2" nUCL="178" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.MMXU1.A.phsC.MX.cVal.mag.f" />
+        <med Class="0" DeadBand="0" Dec="0" UCL="0" fondo="0.00" nP="3" nUCL="179" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.MMXU1.A.neut.MX.cVal.mag.f" />
+        <med Class="0" DeadBand="0" Dec="0" UCL="0" fondo="0.00" nP="4" nUCL="180" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.MMXU1.PhV.phsA.MX.cVal.mag.f" />
+        <med Class="0" DeadBand="0" Dec="0" UCL="0" fondo="0.00" nP="5" nUCL="181" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.MMXU1.PhV.phsB.MX.cVal.mag.f" />
+        <med Class="0" DeadBand="0" Dec="0" UCL="0" fondo="0.00" nP="6" nUCL="182" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.MMXU1.PhV.phsC.MX.cVal.mag.f" />
+        <med Class="0" DeadBand="0" Dec="0" UCL="0" fondo="0.00" nP="7" nUCL="224" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.MMXU2.PhV.phsA.MX.cVal.mag.f" />
+        <med Class="0" DeadBand="0" Dec="0" UCL="0" fondo="0.00" nP="8" nUCL="225" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.MMXU2.PhV.phsB.MX.cVal.mag.f" />
+        <med Class="0" DeadBand="0" Dec="0" UCL="0" fondo="0.00" nP="9" nUCL="226" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.MMXU2.PhV.phsC.MX.cVal.mag.f" />
+        <med Class="0" DeadBand="0" Dec="0" UCL="0" fondo="0.00" nP="10" nUCL="751" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.GEN.LLN0.PSup.MX.mag.f" />
+        <med Class="0" DeadBand="0" Dec="0" UCL="0" fondo="0.00" nP="11" nUCL="209" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.MMXU1.TotW.MX.mag.f" />
+        <med Class="0" DeadBand="0" Dec="0" UCL="0" fondo="0.00" nP="12" nUCL="210" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.MMXU1.TotVAr.MX.mag.f" />
+        <med Class="2" DeadBand="0" Dec="0" UCL="0" fondo="0.00" nP="13" nUCL="746" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.MMXU1.Hz.MX.mag.f" />
+        <med Class="0" DeadBand="0" Dec="0" UCL="0" fondo="0.00" nP="14" nUCL="1285" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.RFLO1.FltDiskm.MX.mag.f" />
+    </TAB>
+    <TAB IdTabla="3" desc="Counters">
+        <cont Class="0" DeadBand="0" UCL="0" nP="0" nUCL="1" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.MMTR1.DmdWh.ST.actVal" />
+    </TAB>
+    <TAB IdTabla="4" desc="Commands">
+        <ord Command_Type="0" ON_OFF_nP="129" Origen="3" UCL="0" nP="0" nUCL="739" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.GEN.ordGGIO1.SPCSO2.CO.Oper.ctlVal [off]" />
+        <ord Command_Type="0" ON_OFF_nP="65" Origen="3" UCL="0" nP="1" nUCL="738" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.GEN.ordGGIO1.SPCSO2.CO.Oper.ctlVal" />
+        <ord Command_Type="0" ON_OFF_nP="1" Origen="3" UCL="0" nP="2" nUCL="754" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.GEN.ordGGIO1.SPCSO10.CO.Oper.ctlVal" />
+        <ord Command_Type="0" ON_OFF_nP="0" Origen="3" UCL="0" nP="3" nUCL="755" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.GEN.ordGGIO1.SPCSO10.CO.Oper.ctlVal [off]" />
+        <ord Command_Type="0" ON_OFF_nP="1" Origen="3" UCL="0" nP="4" nUCL="294" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.RREC1.DOrdReEn.CO.Oper.ctlVal" />
+        <ord Command_Type="0" ON_OFF_nP="0" Origen="3" UCL="0" nP="5" nUCL="295" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.RREC1.DOrdReEn.CO.Oper.ctlVal [off]" />
+        <ord Command_Type="0" ON_OFF_nP="1" Origen="3" UCL="0" nP="6" nUCL="478" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.RHLT1.DOrdAct.CO.Oper.ctlVal" />
+        <ord Command_Type="0" ON_OFF_nP="0" Origen="3" UCL="0" nP="7" nUCL="479" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.RHLT1.DOrdAct.CO.Oper.ctlVal [off]" />
+        <ord Command_Type="0" ON_OFF_nP="1" Origen="3" UCL="0" nP="8" nUCL="300" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.LLN0.ASetGroup1.CO.Oper.ctlVal" />
+        <ord Command_Type="0" ON_OFF_nP="1" Origen="3" UCL="0" nP="9" nUCL="302" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.LLN0.ASetGroup2.CO.Oper.ctlVal" />
+        <ord Command_Type="0" ON_OFF_nP="1" Origen="3" UCL="0" nP="10" nUCL="304" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.LLN0.ASetGroup3.CO.Oper.ctlVal" />
+        <ord Command_Type="0" ON_OFF_nP="1" Origen="3" UCL="0" nP="11" nUCL="756" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.GEN.ordGGIO1.SPCSO11.CO.Oper.ctlVal" />
+        <ord Command_Type="0" ON_OFF_nP="0" Origen="3" UCL="0" nP="12" nUCL="757" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.GEN.ordGGIO1.SPCSO11.CO.Oper.ctlVal [off]" />
+        <ord Command_Type="0" ON_OFF_nP="1" Origen="3" UCL="0" nP="13" nUCL="308" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.LLN0.ASetGroup5.CO.Oper.ctlVal" />
+        <ord Command_Type="0" ON_OFF_nP="1" Origen="3" UCL="0" nP="15" nUCL="212" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.PCLO1.DOrdBlk.CO.Oper.ctlVal" />
+        <ord Command_Type="0" ON_OFF_nP="0" Origen="3" UCL="0" nP="16" nUCL="213" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.PCLO1.DOrdBlk.CO.Oper.ctlVal [off]" />
+        <ord Command_Type="0" ON_OFF_nP="1" Origen="3" UCL="0" nP="17" nUCL="466" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.RLAU1.DOrdLoop.CO.Oper.ctlVal" />
+        <ord Command_Type="0" ON_OFF_nP="0" Origen="3" UCL="0" nP="18" nUCL="467" ref61850="se_cto_ra_data_opr_ARTECHE_PT5_SAT.PROT.RLAU1.DOrdLoop.CO.Oper.ctlVal [off]" />
+    </TAB>
+    <TAB IdTabla="5" desc="Statistics">
+        <est Class="1" Threshold="3" nEst="0" />
+        <est Class="1" Threshold="5" nEst="1" />
+        <est Class="1" Threshold="5" nEst="2" />
+        <est Class="1" Threshold="3" nEst="3" />
+        <est Class="1" Threshold="3" nEst="4" />
+        <est Class="1" Threshold="100" nEst="5" />
+        <est Class="1" Threshold="100" nEst="6" />
+        <est Class="1" Threshold="100" nEst="7" />
+        <est Class="1" Threshold="100" nEst="8" />
+        <est Class="1" Threshold="10" nEst="9" />
+        <est Class="1" Threshold="2" nEst="10" />
+        <est Class="1" Threshold="10" nEst="11" />
+        <est Class="1" Threshold="100" nEst="12" />
+        <est Class="1" Threshold="10" nEst="13" />
+        <est Class="1" Threshold="5" nEst="14" />
+        <est Class="1" Threshold="1" nEst="15" />
+        <est Class="1" Threshold="1" nEst="16" />
+        <est Class="1" Threshold="3" nEst="17" />
+    </TAB>
+</TablasDNPEsclavo>
+</DNPESCLAVOEF><Services nameLength="64">
+<ClientServices goose="true" maxGOOSE="32">
+    <TimeSyncProt other="true" sntp="true" />
+</ClientServices>
+<ConfDataSet max="10" maxAttributes="100" />
+<ConfLNs fixLnInst="false" fixPrefix="false" />
+<ConfReportControl bufConf="true" bufMode="both" max="10" />
+<DataObjectDirectory />
+<DataSetDirectory />
+<DynAssociation max="16" />
+<FileHandling ftp="true" ftps="false" mms="true" />
+<GOOSE max="32" />
+<GSESettings appID="Conf" cbName="Conf" datSet="Conf" />
+<GetCBValues />
+<GetDataObjectDefinition />
+<GetDataSetValue />
+<GetDirectory />
+<ReadWrite />
+<ReportSettings bufTime="Dyn" cbName="Conf" datSet="Conf" intgPd="Dyn" optFields="Dyn" owner="true" resvTms="true" rptID="Dyn" trgOps="Dyn" />
+<SettingGroups>
+    <ConfSG resvTms="true" />
+    <SGEdit resvTms="true" />
+</SettingGroups>
+<SupSubscription maxGo="32" maxSv="0" />
+</Services>
